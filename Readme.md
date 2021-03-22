@@ -1,0 +1,2 @@
+- Simple React app showing current time in your local time zone
+- Run `npm run dev` to build it in localhost:1234
