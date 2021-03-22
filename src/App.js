@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
       <h1>Current Local Time</h1>
-      <h2>{time.toLocaleTimeString("en-GB", { timeZone: timeZone })}</h2>
+      <h2>{`${time.toLocaleTimeString("en-GB", { timeZone: timeZone })} | ${timeZone}`}</h2>
       <label htmlFor="time-selector">Select time zone:</label>
       <select id="time-selector" onChange={(e) => setTimeZone(e.target.value)}>
         <option value="GMT">GMT</option>
